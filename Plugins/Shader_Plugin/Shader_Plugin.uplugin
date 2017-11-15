@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.01",
+	"FriendlyName": "Shader_Plugin",
+	"Description": "To test custom shader to Unreal Engine 4",
+	"Category": "Shader",
+	"CreatedBy": "cs",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Shader_Plugin",
+			"Type": "Developer",
+			"LoadingPhase": "Default"
+		}
+	]
+}
