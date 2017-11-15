@@ -5,7 +5,7 @@
 	"FriendlyName": "Shader_Plugin",
 	"Description": "To test custom shader to Unreal Engine 4",
 	"Category": "Shader",
-	"CreatedBy": "cs",
+	"CreatedBy": "corattis86",
 	"CreatedByURL": "",
 	"DocsURL": "",
 	"MarketplaceURL": "",
@@ -17,7 +17,7 @@
 		{
 			"Name": "Shader_Plugin",
 			"Type": "Developer",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "PostConfigInit"
 		}
 	]
 }
