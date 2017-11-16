@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
@@ -39,4 +37,9 @@ public:
     virtual bool Serialize(FArchive &Ar) override;
     static void ModifyCompilationEnvironment(EShaderPlatform Platform, FShaderCompilerEnvironment& OutEnvironment);
     static bool ShouldCache(EShaderPlatform Platform);
+
+	void SetColor(FRHICommandList & RHICmdList, const FLinearColor & Color);
+
+private:
+	FShaderParameter MyColorParameter;
 };

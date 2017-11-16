@@ -40,6 +40,9 @@ public class Shader_Plugin : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
+                "ShaderCore",
+                "RHI",
+
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
