@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.17",
+	"EngineAssociation": "{1B851A87-360B-0E10-002A-02B91912DE6D}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "Alpha_Project",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	]
 }
